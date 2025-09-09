@@ -1,0 +1,20 @@
+BUS EVENT
+| Responsabilidade                          | Motivo de mudança                          |
+| ----------------------------------------- | ------------------------------------------ |
+| Benchmark de registro de objetos          | Comparação entre diferentes bibliotecas    |
+| Criação de objetos de teste               | Mudança na classe `BusUtilsVsEventBusTest` |
+| Registro e remoção de objetos             | Mudança na API de `register`/`unregister`  |
+| Gerência de estado entre execuções        | Alterações no controle de estado/listas    |
+| Configuração do benchmark (`BenchConfig`) | Mudança na estrutura de teste              |
+
+
+HTTP
+
+| Responsabilidade                    | Motivo de mudança                             |
+| ----------------------------------- | --------------------------------------------- |
+| Configuração da conexão             | Mudança nas políticas de conexão              |
+| Escolha do método HTTP              | Suporte a novos métodos                       |
+| Configuração do `Content-Type`      | Suporte a diferentes formatos                 |
+| Serialização do corpo da requisição | Formato do corpo ou nova lógica de envio      |
+| Leitura da resposta                 | Alterações no processamento da resposta       |
+| Tratamento de exceção               | Mudança em estratégias de logging ou fallback |
